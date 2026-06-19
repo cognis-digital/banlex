@@ -1,0 +1,25 @@
+[package]
+name = "banlex"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cognis Digital"]
+license = "LicenseRef-COCL-1.0"
+description = "Multilingual content-risk lexicon and classifier for content-moderation pipelines"
+repository = "https://github.com/cognis-digital/banlex"
+readme = "README.md"
+keywords = ["moderation", "lexicon", "classifier", "content-safety", "multilingual"]
+categories = ["text-processing", "command-line-utilities"]
+
+[[bin]]
+name = "banlex"
+path = "src/main.rs"
+
+[lib]
+name = "banlex"
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]

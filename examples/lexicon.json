@@ -1,0 +1,17 @@
+{
+  "name": "example-marketing-risk",
+  "entries": [
+    { "term": "free money", "category": "scam", "weight": 2.0, "lang": "en" },
+    { "term": "claim your prize", "category": "scam", "weight": 1.5, "lang": "en" },
+    { "term": "no risk guaranteed", "category": "scam", "weight": 1.2, "lang": "en" },
+    { "term": "dinero gratis", "category": "scam", "weight": 2.0, "lang": "es" },
+
+    { "term": "limited time", "category": "spam", "weight": 0.8, "lang": "en" },
+    { "term": "order now", "category": "spam", "weight": 0.9, "lang": "en" },
+    { "term": "best price", "category": "spam", "weight": 0.6, "lang": "en" },
+    { "term": "jetzt bestellen", "category": "spam", "weight": 0.9, "lang": "de" },
+
+    { "term": "stop messaging me", "category": "harassment", "weight": 1.0, "lang": "en" },
+    { "term": "leave me alone", "category": "harassment", "weight": 1.0, "lang": "en" }
+  ]
+}

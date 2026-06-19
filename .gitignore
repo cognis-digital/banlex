@@ -1,0 +1,13 @@
+# Rust build artifacts
+/target
+
+# Backed-up Cargo.lock for libraries (kept for the binary by default; uncomment to ignore)
+# Cargo.lock
+
+# Editor / OS noise
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
