@@ -11,6 +11,30 @@ It is built for **defensive / moderation use only**: routing or flagging
 content for human review, triage queues, and pre-filters. It does not generate
 content and ships only mild, generic *indicator* terms.
 
+
+<!-- cognis:example:start -->
+## 🔎 Example output
+
+**Sample result format** _(illustrative values — run on your own data for real findings):_
+
+```
+{
+  "id": "1234567890",
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "phone": "+1-555-1234"
+}
+
+$ banlex --help
+Usage: banlex [options]
+
+Options:
+  -h, --help    Show this help message and exit.
+  -i ID         Specify the ID of the contact to operate on.
+```
+
+<!-- cognis:example:end -->
+
 ## What it does
 
 - Loads a lexicon (built-in default, or your own JSON via `--lexicon`).
